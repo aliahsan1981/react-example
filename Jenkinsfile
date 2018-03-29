@@ -1,4 +1,5 @@
-def build_source_file = readfile(''build_source)
+#!/usr/bin/groovy
+def build_source_file = readfile('build_source')
  
 
 pipeline {
